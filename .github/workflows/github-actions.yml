@@ -37,8 +37,9 @@ jobs:
         uses: potatoqualitee/psmodulecache@v3.5
       - name: Generate wordcloud and README.md
         shell: pwsh
+        working-directory: $HOME
         run: |
-          $HOME/dev/gen-readme.ps1
+          dev\gen-readme.ps1
 
       - name: Checkout main
         uses: actions/checkout@v2
