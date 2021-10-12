@@ -41,14 +41,17 @@ jobs:
         run: |
           ./gen-readme.ps1
 
-      - name: Publish
+      - name: Checkout main
         uses: actions/checkout@v2
         with:
           path: main
           ref: main
+
+      - name: Publish
         shell: pwsh
         run: |
-          Copy-Item $HOME\output\* .
+          Copy-Item $HOME\output\* $Home\main
+          cd $Home\main
           git config user.name "$env:name"
           git config user.email "$env:email"
           git commit -a -m "GH Actions Commit"
