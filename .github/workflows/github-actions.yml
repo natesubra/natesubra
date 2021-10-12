@@ -38,7 +38,7 @@ jobs:
       - name: Generate wordcloud and README.md
         shell: pwsh
         run: |
-          ./gen-readme.ps1
+          ./dev/gen-readme.ps1
 
       - name: Checkout main
         uses: actions/checkout@v2
