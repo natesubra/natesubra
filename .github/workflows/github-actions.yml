@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     env:
       Token: ${{ secrets.GH_PAT }}
-      name: ${{ GITHUB_ACTOR }}
+      name: ${{ $GITHUB_ACTOR }}
       email: ${{ secrets.EMAIL }}
     steps:
 
