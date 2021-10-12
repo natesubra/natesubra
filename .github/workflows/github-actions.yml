@@ -16,7 +16,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
         with:
-          path: $HOME\dev
+          path: dev
           ref: dev
 
       - name: Create variables for module cacher
@@ -38,19 +38,19 @@ jobs:
 
       - name: Generate wordcloud and README.md
         shell: pwsh
-        working-directory: ./dev
+        working-directory: dev
         run: |
-          ./gen-readme.ps1
+          .\gen-readme.ps1
 
       - name: Checkout main
         uses: actions/checkout@v2
         with:
-          path: $HOME\main
+          path: main
           ref: main
 
       - name: Publish
         shell: pwsh
-        working-directory: ./main
+        working-directory: main
         run: |
           Copy-Item ..\dev\wordcloud.svg .
           Copy-Item ..\dev\README.md .
