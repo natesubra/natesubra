@@ -1,0 +1,36 @@
+name: publish
+
+on:
+  push:
+    branches:
+    - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      Token: ${{ secrets.GH_PAT }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: dev
+      - name: Install pwsh modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module -Force -Name PSWordCloud, powershell-yaml -Verbose -Scope CurrentUser -ErrorAction Stop
+      - name: Generate wordcloud and README.md
+        shell: pwsh
+        run: |
+          ./gen-readme.ps1
+      - name: push
+        uses: github-actions-x/commit@v2.8
+        with:
+          github-token: ${{ secrets.GH_PAT }}
+          push-branch: 'main'
+          commit-message: 'GH Actions Publish'
+          force-add: 'true'
+          files: wordcloud.svg README.md
+          name: ${{ env.GITHUB_ACTOR }}
+          email: ${{ secrets.EMAIL }}
