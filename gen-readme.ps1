@@ -38,7 +38,7 @@ Try {
 
     New-WordCloud @ParamsRaw
 
-    $YAML = Get-Content README.yml | ConvertFrom-Yaml
+    $YAML = Get-Content content.yml | ConvertFrom-Yaml
 
     $YAML.Content | Out-File -FilePath README.md -Force
 
