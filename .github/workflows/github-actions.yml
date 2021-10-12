@@ -52,7 +52,7 @@ jobs:
         run: |
           Copy-Item $HOME\output\* $Home\main
           cd $Home\main
-          git config user.name "$env:name"
-          git config user.email "$env:email"
-          git commit -a -m "GH Actions Commit"
+          git config user.name "${{ env.name }}"
+          git config user.email "${{ env.email }}"
+          git commit -a -m "GH Actions Publish"
           git push
