@@ -14,7 +14,7 @@ Try {
         Authorization = $basicAuthValue
     }
 
-    $outputPath = "$HOME\output"
+    $outputPath = $HOME
 
     $PageNum = 1
     do {
@@ -29,7 +29,7 @@ Try {
     $ParamsRaw = @{
         StrokeWidth      = 1
         StrokeColor      = 'MidnightBlue'
-        Path             = "${outputPath}\wordcloud.svg"
+        Path             = "$outputPath\wordcloud.svg"
         FocusWord        = 'Security'
         FocusWordAngle   = 0
         ImageSize        = "480x800"
@@ -42,6 +42,8 @@ Try {
 
     $YAML = Get-Content content.yml | ConvertFrom-Yaml
     $YAML.Content | Out-File -FilePath "${outputPath}\README.md" -Force -Verbose
+
+    Get-ChildItem $Home -Force
 
 } Catch {
     Write-Output "Ran into an issue: $($PSItem.ToString())"
