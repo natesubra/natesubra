@@ -14,6 +14,8 @@ Try {
         Authorization = $basicAuthValue
     }
 
+    $outputPath = "$HOME\output"
+
     $PageNum = 1
     do {
         $PageNum
@@ -22,10 +24,12 @@ Try {
         $PageNum++
     } while ($Page.count -gt 0)
 
+    New-Item -ItemType Directory -Name $outputPath -Force -Verbose
+
     $ParamsRaw = @{
         StrokeWidth      = 1
         StrokeColor      = 'MidnightBlue'
-        Path             = 'wordcloud.svg'
+        Path             = "${outputPath}\wordcloud.svg"
         FocusWord        = 'Security'
         FocusWordAngle   = 0
         ImageSize        = "480x800"
@@ -34,13 +38,10 @@ Try {
         ColorSet         = '*blue*', '*red*', '*purple*'
     }
 
-    New-Item -ItemType Directory -Name output -Force -Verbose
-
     New-WordCloud @ParamsRaw
 
     $YAML = Get-Content content.yml | ConvertFrom-Yaml
-
-    $YAML.Content | Out-File -FilePath README.md -Force
+    $YAML.Content | Out-File -FilePath "${outputPath}\README.md" -Force -Verbose
 
 } Catch {
     Write-Output "Ran into an issue: $($PSItem.ToString())"

@@ -10,27 +10,46 @@ jobs:
     runs-on: windows-latest
     env:
       Token: ${{ secrets.GH_PAT }}
+      name: ${{ env.GITHUB_ACTOR }}
+      email: ${{ secrets.EMAIL }}
     steps:
+
       - name: checkout
         uses: actions/checkout@v2
         with:
+          path: dev
           ref: dev
-      - name: Install pwsh modules
-        shell: pwsh
-        run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module -Force -Name PSWordCloud, powershell-yaml -Verbose -Scope CurrentUser -ErrorAction Stop
+
+      - name: Create variables for module cacher
+        id: psmodulecache
+        uses: potatoqualitee/psmodulecache@v3.5
+        with:
+          modules-to-cache: PSWordCloud, powershell-yaml
+
+      - name: Run module cacher action
+        id: cacher
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.psmodulecache.outputs.modulepath }}
+          key: ${{ steps.psmodulecache.outputs.keygen }}
+
+      - name: Install PowerShell modules
+        if: steps.cacher.outputs.cache-hit != 'true'
+        uses: potatoqualitee/psmodulecache@v3.5
       - name: Generate wordcloud and README.md
         shell: pwsh
         run: |
           ./gen-readme.ps1
-      - name: push
-        uses: github-actions-x/commit@v2.8
+
+      - name: Publish
+        uses: actions/checkout@v2
         with:
-          github-token: ${{ secrets.GH_PAT }}
-          push-branch: 'main'
-          commit-message: 'GH Actions Publish'
-          force-add: 'true'
-          files: wordcloud.svg README.md
-          name: ${{ env.GITHUB_ACTOR }}
-          email: ${{ secrets.EMAIL }}
+          path: main
+          ref: main
+        shell: pwsh
+        run: |
+          Copy-Item $HOME\output\* .
+          git config user.name "$env:name"
+          git config user.email "$env:email"
+          git commit -a -m "GH Actions Commit"
+          git push
