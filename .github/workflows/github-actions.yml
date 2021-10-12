@@ -10,7 +10,6 @@ jobs:
     runs-on: windows-latest
     env:
       Token: ${{ secrets.GH_PAT }}
-      name: ${{ $GITHUB_ACTOR }}
       email: ${{ secrets.EMAIL }}
     steps:
 
@@ -52,7 +51,7 @@ jobs:
         run: |
           Copy-Item $HOME\output\* $Home\main
           cd $Home\main
-          git config user.name "${{ env.name }}"
+          git config user.name "$env:GITHUB_ACTOR"
           git config user.email "${{ env.email }}"
           git commit -a -m "GH Actions Publish"
           git push
