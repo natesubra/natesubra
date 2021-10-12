@@ -42,6 +42,14 @@ jobs:
         run: |
           .\gen-readme.ps1
 
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: publish_artifacts
+          path: |
+            dev\wordcloud.svg
+            dev\README.md
+
       - name: Checkout main
         uses: actions/checkout@v2
         with:
@@ -56,5 +64,6 @@ jobs:
           Copy-Item ..\dev\README.md .
           git config user.name "$env:GITHUB_ACTOR"
           git config user.email "${{ env.email }}"
+          git add -Av
           git commit -a -m 'GH Actions Publish'
           git push
