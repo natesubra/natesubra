@@ -24,14 +24,12 @@ Try {
 
     $ParamsRaw = @{
         StrokeWidth      = 1
-        StrokeColor      = 'MidnightBlue'
         Path             = "wordcloud.svg"
         FocusWord        = 'Security'
-        BackgroundColor  = 'Transparent'
         FocusWordAngle   = 0
-        ImageSize        = 1536
+        ImageSize        = 2048
         InputObject      = $Starred.Topics
-        MaxRenderedWords = 150
+        MaxRenderedWords = 250
     }
 
     New-WordCloud @ParamsRaw
