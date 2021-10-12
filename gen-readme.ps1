@@ -14,8 +14,6 @@ Try {
         Authorization = $basicAuthValue
     }
 
-    $outputPath = $HOME
-
     $PageNum = 1
     do {
         $PageNum
@@ -24,12 +22,10 @@ Try {
         $PageNum++
     } while ($Page.count -gt 0)
 
-    New-Item -ItemType Directory -Name $outputPath -Force -Verbose
-
     $ParamsRaw = @{
         StrokeWidth      = 1
         StrokeColor      = 'MidnightBlue'
-        Path             = "$outputPath\wordcloud.svg"
+        Path             = "wordcloud.svg"
         FocusWord        = 'Security'
         FocusWordAngle   = 0
         ImageSize        = "480x800"
@@ -41,7 +37,7 @@ Try {
     New-WordCloud @ParamsRaw
 
     $YAML = Get-Content content.yml | ConvertFrom-Yaml
-    $YAML.Content | Out-File -FilePath "${outputPath}\README.md" -Force -Verbose
+    $YAML.Content | Out-File -FilePath README.md -Force -Verbose
 
     Get-ChildItem $Home -Force
 

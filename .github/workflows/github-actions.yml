@@ -35,11 +35,12 @@ jobs:
       - name: Install PowerShell modules
         if: steps.cacher.outputs.cache-hit != 'true'
         uses: potatoqualitee/psmodulecache@v3.5
+
       - name: Generate wordcloud and README.md
         shell: pwsh
-        working-directory: $HOME
+        working-directory: ./dev
         run: |
-          dev\gen-readme.ps1
+          ./gen-readme.ps1
 
       - name: Checkout main
         uses: actions/checkout@v2
@@ -49,10 +50,10 @@ jobs:
 
       - name: Publish
         shell: pwsh
-        working-directory: $HOME\main
+        working-directory: ./main
         run: |
-          Copy-Item $Home\wordcloud.svg .
-          Copy-Item $Home\README.md .
+          Copy-Item ..\dev\wordcloud.svg .
+          Copy-Item ..\dev\README.md .
           git config user.name "$env:GITHUB_ACTOR"
           git config user.email "${{ env.email }}"
           git commit -a -m "GH Actions Publish"
