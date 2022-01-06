@@ -29,7 +29,7 @@ Try {
         FocusWordAngle   = 0
         ImageSize        = 2048
         InputObject      = $Starred.Topics
-        MaxRenderedWords = 250
+        MaxRenderedWords = 255
     }
 
     New-WordCloud @ParamsRaw
