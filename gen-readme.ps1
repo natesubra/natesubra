@@ -30,6 +30,7 @@ Try {
         ImageSize        = 2048
         InputObject      = $Starred.Topics
         MaxRenderedWords = 255
+        ExcludeWord      = 'hacktoberfest'
     }
 
     New-WordCloud @ParamsRaw
