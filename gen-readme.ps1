@@ -29,7 +29,7 @@ Try {
         FocusWordAngle   = 0
         ImageSize        = 2048
         InputObject      = $Starred.Topics
-        MaxRenderedWords = 255
+        MaxRenderedWords = 254
         ExcludeWord      = 'hacktoberfest'
     }
 
