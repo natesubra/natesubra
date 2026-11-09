@@ -1,0 +1,2 @@
+wordcloud==1.9.6
+fonttools==4.68.0

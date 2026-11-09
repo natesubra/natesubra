@@ -154,6 +154,10 @@ def main() -> int:
         return 1
 
     wc = build_cloud(counts, args)
+    # fontTools stamps the embedded font's head.modified with "now" unless
+    # SOURCE_DATE_EPOCH is set; pin it so identical input -> identical bytes
+    # (otherwise the workflow would commit a new SVG every run).
+    os.environ.setdefault("SOURCE_DATE_EPOCH", "0")
     svg = wc.to_svg(embed_font=True, optimize_embedded_font=True)
     # wordcloud omits viewBox; without it the SVG will not scale in <img>.
     svg = svg.replace(
