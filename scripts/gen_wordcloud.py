@@ -18,7 +18,7 @@ from collections import Counter
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from wordcloud import WordCloud
 
 DEFAULT_FONT = "/usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Medium.ttf"
@@ -85,19 +85,23 @@ def build_cloud(counts: Counter, args: argparse.Namespace) -> WordCloud:
     focus_entry = None
 
     if focus:
-        # Pin the focus word dead-center, horizontal, and block that area
-        # so the layout flows around it.
+        # Pin the focus word dead-center, horizontal. Block only its glyph
+        # pixels (dilated by the padding) so small words can tuck in around
+        # the letter shapes instead of leaving a rectangular void.
         font = ImageFont.truetype(args.font, args.focus_size)
-        left, top, right, bottom = ImageDraw.Draw(Image.new("L", (1, 1))).textbbox(
-            (0, 0), focus, font=font
-        )
-        w, h = right - left, bottom - top
-        x0 = (args.size - w) // 2
-        y0 = (args.size - h) // 2
-        pad = args.word_padding
-        mask[max(0, y0 - pad) : y0 + h + pad, max(0, x0 - pad) : x0 + w + pad] = 255
-        # layout_ position is (row, col) of the text origin, before bbox offset.
-        focus_entry = ((focus, 1.0), args.focus_size, (y0 - top, x0 - left), None, "rgb(235,235,235)")
+        left, top, right, bottom = font.getbbox(focus)
+        x0 = (args.size - (right - left)) // 2
+        y0 = (args.size - (bottom - top)) // 2
+
+        ink = Image.new("L", (args.size, args.size), 0)
+        ImageDraw.Draw(ink).text((x0 - left, y0 - top), focus, font=font, fill=255)
+        if args.word_padding:
+            ink = ink.filter(ImageFilter.MaxFilter(2 * args.word_padding + 1))
+        mask[np.asarray(ink) > 0] = 255
+
+        # layout_ positions are the top-left of the ink box; to_svg() applies
+        # the glyph offsets itself, so pass (y0, x0) unadjusted.
+        focus_entry = ((focus, 1.0), args.focus_size, (y0, x0), None, "rgb(235,235,235)")
 
     wc = WordCloud(
         width=args.size,
