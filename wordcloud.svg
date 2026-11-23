@@ -52,208 +52,208 @@
 <text transform="translate(897,1153)" font-size="55" style="fill:rgb(244,222,85)">mitre-attack</text>
 <text transform="translate(584,1408)" font-size="55" style="fill:rgb(243,95,178)">malware-research</text>
 <text transform="translate(820,1847)" font-size="55" style="fill:rgb(68,192,231)">scanner</text>
-<text transform="translate(581,1229)" font-size="54" style="fill:rgb(70,251,215)">open-source</text>
-<text transform="translate(1427,935)" font-size="54" style="fill:rgb(240,144,140)">incident-response</text>
-<text transform="translate(1386,463) rotate(-90)" font-size="54" style="fill:rgb(123,238,225)">automation</text>
-<text transform="translate(832,301)" font-size="54" style="fill:rgb(241,216,84)">azure</text>
-<text transform="translate(1328,395) rotate(-90)" font-size="54" style="fill:rgb(185,238,130)">awesome</text>
-<text transform="translate(1196,872)" font-size="54" style="fill:rgb(101,187,245)">monitoring</text>
-<text transform="translate(865,1701) rotate(-90)" font-size="53" style="fill:rgb(252,137,122)">llm</text>
-<text transform="translate(1347,1137)" font-size="53" style="fill:rgb(251,189,77)">macos</text>
-<text transform="translate(1685,1356)" font-size="53" style="fill:rgb(237,43,58)">aws</text>
-<text transform="translate(1152,1669)" font-size="48" style="fill:rgb(101,232,249)">threat-intelligence</text>
-<text transform="translate(1150,401) rotate(-90)" font-size="48" style="fill:rgb(93,159,236)">awesome-list</text>
-<text transform="translate(1425,394) rotate(-90)" font-size="48" style="fill:rgb(240,245,94)">blueteam</text>
-<text transform="translate(681,1826) rotate(-90)" font-size="47" style="fill:rgb(240,45,184)">containers</text>
-<text transform="translate(980,818) rotate(-90)" font-size="47" style="fill:rgb(138,197,239)">obfuscation</text>
-<text transform="translate(1663,1131)" font-size="46" style="fill:rgb(251,157,36)">network</text>
-<text transform="translate(951,82)" font-size="46" style="fill:rgb(129,241,212)">cpp</text>
-<text transform="translate(796,1968)" font-size="45" style="fill:rgb(88,43,245)">post-exploitation</text>
-<text transform="translate(947,1523)" font-size="45" style="fill:rgb(170,134,241)">javascript</text>
-<text transform="translate(368,1721) rotate(-90)" font-size="45" style="fill:rgb(233,74,187)">reconnaissance</text>
-<text transform="translate(400,1111) rotate(-90)" font-size="44" style="fill:rgb(209,63,248)">command-line</text>
-<text transform="translate(1628,1544)" font-size="44" style="fill:rgb(245,129,97)">cloud</text>
-<text transform="translate(1509,411) rotate(-90)" font-size="44" style="fill:rgb(235,105,66)">bash</text>
-<text transform="translate(444,306)" font-size="43" style="fill:rgb(126,243,176)">cobaltstrike</text>
-<text transform="translate(1402,1331)" font-size="42" style="fill:rgb(239,189,96)">edr-evasion</text>
-<text transform="translate(1545,475) rotate(-90)" font-size="42" style="fill:rgb(223,102,246)">terraform</text>
-<text transform="translate(774,165)" font-size="42" style="fill:rgb(212,127,242)">exploit</text>
-<text transform="translate(862,876) rotate(-90)" font-size="42" style="fill:rgb(235,129,60)">nmap</text>
-<text transform="translate(1882,973)" font-size="42" style="fill:rgb(245,239,55)">ssh</text>
-<text transform="translate(1590,298) rotate(-90)" font-size="42" style="fill:rgb(152,252,53)">dns</text>
-<text transform="translate(1609,796)" font-size="41" style="fill:rgb(238,85,100)">security-audit</text>
-<text transform="translate(1458,499) rotate(-90)" font-size="40" style="fill:rgb(254,39,47)">typescript</text>
-<text transform="translate(1221,717)" font-size="40" style="fill:rgb(242,201,94)">vulnerability</text>
-<text transform="translate(1658,1411)" font-size="40" style="fill:rgb(249,127,138)">windows-10</text>
-<text transform="translate(754,560) rotate(-90)" font-size="40" style="fill:rgb(247,205,118)">recon</text>
-<text transform="translate(1432,1713)" font-size="39" style="fill:rgb(237,170,47)">exploitation</text>
-<text transform="translate(1746,975)" font-size="39" style="fill:rgb(235,82,66)">bof</text>
-<text transform="translate(1096,1855)" font-size="36" style="fill:rgb(252,135,85)">privilege-escalation</text>
-<text transform="translate(421,573) rotate(-90)" font-size="35" style="fill:rgb(175,132,242)">framework</text>
-<text transform="translate(1179,397) rotate(-90)" font-size="35" style="fill:rgb(252,221,110)">pentesting-tools</text>
-<text transform="translate(466,1799) rotate(-90)" font-size="35" style="fill:rgb(251,123,133)">phishing</text>
-<text transform="translate(843,1262)" font-size="35" style="fill:rgb(116,251,238)">c</text>
-<text transform="translate(1383,765)" font-size="35" style="fill:rgb(186,242,109)">ansible</text>
-<text transform="translate(1669,1087)" font-size="35" style="fill:rgb(250,69,52)">static-analysis</text>
-<text transform="translate(496,1654)" font-size="34" style="fill:rgb(111,234,252)">privacy</text>
-<text transform="translate(1136,793) rotate(-90)" font-size="34" style="fill:rgb(237,202,62)">malware-development</text>
-<text transform="translate(998,1888)" font-size="34" style="fill:rgb(245,144,62)">markdown</text>
-<text transform="translate(792,119)" font-size="34" style="fill:rgb(123,243,228)">devsecops</text>
-<text transform="translate(482,925) rotate(-90)" font-size="34" style="fill:rgb(241,137,147)">siem</text>
-<text transform="translate(267,1242)" font-size="34" style="fill:rgb(186,241,100)">cross-platform</text>
-<text transform="translate(778,1596)" font-size="34" style="fill:rgb(140,240,172)">detection</text>
-<text transform="translate(312,497)" font-size="34" style="fill:rgb(95,45,239)">tool</text>
-<text transform="translate(706,603) rotate(-90)" font-size="34" style="fill:rgb(86,151,248)">networking</text>
-<text transform="translate(947,1246)" font-size="33" style="fill:rgb(240,60,170)">forensics</text>
-<text transform="translate(328,1615) rotate(-90)" font-size="33" style="fill:rgb(238,96,248)">av-evasion</text>
-<text transform="translate(1715,897)" font-size="33" style="fill:rgb(237,136,73)">backdoor</text>
-<text transform="translate(395,1360)" font-size="31" style="fill:rgb(105,246,216)">vulnerability-scanners</text>
-<text transform="translate(1438,1429)" font-size="31" style="fill:rgb(249,237,126)">bypass</text>
-<text transform="translate(1607,439)" font-size="30" style="fill:rgb(243,189,67)">ai-agents</text>
-<text transform="translate(209,1337) rotate(-90)" font-size="30" style="fill:rgb(249,52,61)">reverse-shell</text>
-<text transform="translate(369,1507)" font-size="30" style="fill:rgb(143,85,242)">proxy</text>
-<text transform="translate(1207,341) rotate(-90)" font-size="29" style="fill:rgb(254,242,107)">bug-bounty</text>
-<text transform="translate(1752,570)" font-size="29" style="fill:rgb(241,47,192)">yara</text>
-<text transform="translate(1541,493)" font-size="29" style="fill:rgb(223,36,253)">beacon</text>
-<text transform="translate(1661,1002)" font-size="29" style="fill:rgb(234,227,69)">security-automation</text>
-<text transform="translate(1299,522)" font-size="29" style="fill:rgb(248,132,144)">firewall</text>
-<text transform="translate(1260,1943)" font-size="29" style="fill:rgb(247,163,123)">web</text>
-<text transform="translate(386,1398)" font-size="29" style="fill:rgb(238,92,182)">rdp</text>
-<text transform="translate(1236,350) rotate(-90)" font-size="29" style="fill:rgb(236,118,252)">security-scanner</text>
-<text transform="translate(1592,889) rotate(-90)" font-size="29" style="fill:rgb(249,131,52)">edr</text>
-<text transform="translate(1275,1263)" font-size="29" style="fill:rgb(233,51,172)">api</text>
-<text transform="translate(1815,1320)" font-size="29" style="fill:rgb(248,157,113)">attack</text>
-<text transform="translate(1243,684) rotate(-90)" font-size="29" style="fill:rgb(124,185,253)">vulnerabilities</text>
-<text transform="translate(1140,1375)" font-size="28" style="fill:rgb(174,126,245)">mcp</text>
-<text transform="translate(1275,1511)" font-size="25" style="fill:rgb(45,151,251)">penetration-testing-tools</text>
-<text transform="translate(1032,1911)" font-size="25" style="fill:rgb(59,225,245)">agent</text>
-<text transform="translate(879,1036) rotate(-90)" font-size="25" style="fill:rgb(64,153,240)">password</text>
-<text transform="translate(1328,1168)" font-size="25" style="fill:rgb(237,70,190)">cheatsheet</text>
-<text transform="translate(460,246)" font-size="25" style="fill:rgb(57,166,238)">nodejs</text>
-<text transform="translate(919,1677)" font-size="25" style="fill:rgb(238,184,48)">microsoft</text>
-<text transform="translate(1687,982)" font-size="25" style="fill:rgb(36,145,250)">ctf</text>
-<text transform="translate(429,1259)" font-size="25" style="fill:rgb(91,248,237)">oscp</text>
-<text transform="translate(414,1541)" font-size="25" style="fill:rgb(103,44,236)">syscalls</text>
-<text transform="translate(1023,1991)" font-size="25" style="fill:rgb(132,245,236)">payload</text>
-<text transform="translate(558,931)" font-size="25" style="fill:rgb(253,108,196)">purpleteam</text>
-<text transform="translate(426,388)" font-size="24" style="fill:rgb(92,218,232)">kali-linux</text>
-<text transform="translate(319,692) rotate(-90)" font-size="24" style="fill:rgb(112,249,163)">metasploit</text>
-<text transform="translate(1443,1741)" font-size="24" style="fill:rgb(133,216,247)">network-security</text>
-<text transform="translate(1342,616)" font-size="24" style="fill:rgb(111,236,218)">red-team-tools</text>
-<text transform="translate(1320,1070) rotate(-90)" font-size="24" style="fill:rgb(94,233,198)">owasp</text>
-<text transform="translate(206,1095) rotate(-90)" font-size="24" style="fill:rgb(87,239,208)">malware-detection</text>
-<text transform="translate(1715,1152)" font-size="24" style="fill:rgb(132,245,220)">command-and-control</text>
-<text transform="translate(1944,1037)" font-size="24" style="fill:rgb(236,158,120)">kvm</text>
-<text transform="translate(437,1394)" font-size="24" style="fill:rgb(33,253,92)">antivirus</text>
-<text transform="translate(878,1357)" font-size="24" style="fill:rgb(241,142,135)">powershell-module</text>
-<text transform="translate(1877,669)" font-size="24" style="fill:rgb(241,68,63)">git</text>
-<text transform="translate(357,1062) rotate(-90)" font-size="24" style="fill:rgb(247,122,55)">information-security</text>
-<text transform="translate(537,1869)" font-size="24" style="fill:rgb(92,249,132)">windows-11</text>
-<text transform="translate(341,1128)" font-size="23" style="fill:rgb(236,130,60)">vulnerability-management</text>
-<text transform="translate(1609,1428)" font-size="20" style="fill:rgb(105,65,247)">vulnerability-assessment</text>
-<text transform="translate(1787,541)" font-size="20" style="fill:rgb(116,236,213)">http</text>
-<text transform="translate(987,447) rotate(-90)" font-size="20" style="fill:rgb(247,58,169)">threatintel</text>
-<text transform="translate(1650,1159) rotate(-90)" font-size="19" style="fill:rgb(159,236,105)">developer-tools</text>
-<text transform="translate(1872,1363)" font-size="19" style="fill:rgb(141,74,241)">agents</text>
-<text transform="translate(727,1023) rotate(-90)" font-size="19" style="fill:rgb(111,234,140)">android</text>
-<text transform="translate(646,1617) rotate(-90)" font-size="19" style="fill:rgb(37,253,234)">java</text>
-<text transform="translate(1006,222) rotate(-90)" font-size="19" style="fill:rgb(225,91,235)">edr-bypass</text>
-<text transform="translate(412,1059) rotate(-90)" font-size="19" style="fill:rgb(243,213,135)">cve</text>
-<text transform="translate(1375,1276)" font-size="19" style="fill:rgb(76,152,251)">cna</text>
-<text transform="translate(1292,734)" font-size="19" style="fill:rgb(153,115,251)">antivirus-evasion</text>
-<text transform="translate(1488,1832)" font-size="19" style="fill:rgb(249,125,77)">react</text>
-<text transform="translate(479,1699)" font-size="19" style="fill:rgb(139,87,231)">hacking-tools</text>
-<text transform="translate(177,607)" font-size="19" style="fill:rgb(52,249,103)">openai</text>
-<text transform="translate(1334,1347) rotate(-90)" font-size="19" style="fill:rgb(88,252,134)">tools</text>
-<text transform="translate(596,1581)" font-size="19" style="fill:rgb(137,200,239)">dll</text>
-<text transform="translate(400,754) rotate(-90)" font-size="19" style="fill:rgb(238,98,195)">reporting</text>
-<text transform="translate(1624,699)" font-size="19" style="fill:rgb(80,216,250)">tui</text>
-<text transform="translate(1492,305) rotate(-90)" font-size="19" style="fill:rgb(237,127,84)">kernel</text>
-<text transform="translate(1751,1227)" font-size="19" style="fill:rgb(220,84,244)">bypass-antivirus</text>
-<text transform="translate(576,258) rotate(-90)" font-size="19" style="fill:rgb(95,240,234)">gui</text>
-<text transform="translate(899,1171)" font-size="19" style="fill:rgb(73,214,232)">vulnerability-detection</text>
-<text transform="translate(561,900) rotate(-90)" font-size="19" style="fill:rgb(254,234,102)">encryption</text>
-<text transform="translate(845,1329)" font-size="19" style="fill:rgb(241,60,195)">sysmon</text>
-<text transform="translate(1301,1542)" font-size="18" style="fill:rgb(247,110,198)">virtualization</text>
-<text transform="translate(613,395)" font-size="18" style="fill:rgb(239,140,71)">productivity</text>
-<text transform="translate(755,1867)" font-size="18" style="fill:rgb(184,239,95)">detection-engineering</text>
-<text transform="translate(574,628) rotate(-90)" font-size="18" style="fill:rgb(237,115,113)">adversary-emulation</text>
-<text transform="translate(1205,888)" font-size="18" style="fill:rgb(47,221,234)">vulnerability-scanner</text>
-<text transform="translate(1661,481)" font-size="18" style="fill:rgb(69,205,230)">php</text>
-<text transform="translate(539,183)" font-size="18" style="fill:rgb(46,226,240)">shellcode-loader</text>
-<text transform="translate(604,162)" font-size="18" style="fill:rgb(119,54,231)">assembly</text>
-<text transform="translate(420,664) rotate(-90)" font-size="18" style="fill:rgb(134,54,234)">loader</text>
-<text transform="translate(998,578) rotate(-90)" font-size="18" style="fill:rgb(91,161,250)">obfuscator</text>
-<text transform="translate(1693,1320)" font-size="18" style="fill:rgb(252,249,66)">hardening</text>
-<text transform="translate(81,1241) rotate(-90)" font-size="18" style="fill:rgb(181,243,137)">reverse-proxy</text>
-<text transform="translate(704,1675) rotate(-90)" font-size="18" style="fill:rgb(161,138,240)">cryptography</text>
-<text transform="translate(1815,626)" font-size="18" style="fill:rgb(231,223,75)">injection</text>
-<text transform="translate(1410,1911) rotate(-90)" font-size="18" style="fill:rgb(227,200,60)">logs</text>
-<text transform="translate(1013,548) rotate(-90)" font-size="18" style="fill:rgb(95,203,233)">desktop</text>
-<text transform="translate(1574,427) rotate(-90)" font-size="18" style="fill:rgb(169,244,107)">c-plus-plus</text>
-<text transform="translate(1048,778)" font-size="18" style="fill:rgb(205,57,249)">slack</text>
-<text transform="translate(216,1503) rotate(-90)" font-size="18" style="fill:rgb(173,130,245)">scanning</text>
-<text transform="translate(204,814) rotate(-90)" font-size="18" style="fill:rgb(60,159,235)">machine-learning</text>
-<text transform="translate(1026,1646)" font-size="18" style="fill:rgb(236,159,60)">analysis</text>
-<text transform="translate(770,670) rotate(-90)" font-size="18" style="fill:rgb(245,128,197)">information-gathering</text>
-<text transform="translate(1041,1048) rotate(-90)" font-size="17" style="fill:rgb(98,220,253)">chatgpt</text>
-<text transform="translate(218,1576)" font-size="17" style="fill:rgb(79,160,245)">console</text>
-<text transform="translate(1582,816)" font-size="17" style="fill:rgb(107,234,220)">windows-internals</text>
-<text transform="translate(1472,1347)" font-size="17" style="fill:rgb(243,247,118)">shellcode-injection</text>
-<text transform="translate(423,944)" font-size="17" style="fill:rgb(240,124,108)">uac-bypass</text>
-<text transform="translate(416,272)" font-size="17" style="fill:rgb(242,67,56)">testing</text>
-<text transform="translate(1017,693) rotate(-90)" font-size="17" style="fill:rgb(54,193,244)">ruby</text>
-<text transform="translate(1887,1120)" font-size="17" style="fill:rgb(236,132,246)">bloodhound</text>
-<text transform="translate(1071,1928)" font-size="17" style="fill:rgb(96,252,220)">infrastructure</text>
-<text transform="translate(668,139)" font-size="17" style="fill:rgb(83,247,134)">payloads</text>
-<text transform="translate(1436,1184)" font-size="17" style="fill:rgb(93,243,229)">aggressor-scripts</text>
-<text transform="translate(1019,756)" font-size="17" style="fill:rgb(43,248,99)">research</text>
-<text transform="translate(515,1749)" font-size="17" style="fill:rgb(29,123,251)">dll-injection</text>
-<text transform="translate(478,1721)" font-size="17" style="fill:rgb(61,212,238)">development</text>
-<text transform="translate(1026,1076) rotate(-90)" font-size="17" style="fill:rgb(118,215,239)">wsl</text>
-<text transform="translate(300,1451) rotate(-90)" font-size="17" style="fill:rgb(57,172,252)">fuzzing</text>
-<text transform="translate(284,1653)" font-size="17" style="fill:rgb(131,239,248)">cyber</text>
-<text transform="translate(683,263)" font-size="17" style="fill:rgb(230,225,81)">elasticsearch</text>
-<text transform="translate(1205,159) rotate(-90)" font-size="17" style="fill:rgb(128,253,220)">blue-team</text>
-<text transform="translate(1577,1761)" font-size="16" style="fill:rgb(108,202,237)">electron</text>
-<text transform="translate(1781,1341)" font-size="16" style="fill:rgb(243,108,205)">ethical-hacking</text>
-<text transform="translate(1121,1400) rotate(-90)" font-size="16" style="fill:rgb(61,192,243)">rce</text>
-<text transform="translate(1177,1092) rotate(-90)" font-size="16" style="fill:rgb(91,249,211)">amsi</text>
-<text transform="translate(1649,1371)" font-size="16" style="fill:rgb(249,202,58)">binary-analysis</text>
-<text transform="translate(64,1101) rotate(-90)" font-size="16" style="fill:rgb(119,241,216)">orchestration</text>
-<text transform="translate(240,464)" font-size="16" style="fill:rgb(244,66,75)">collaboration</text>
-<text transform="translate(707,792) rotate(-90)" font-size="16" style="fill:rgb(210,53,242)">redirector</text>
-<text transform="translate(736,1716)" font-size="16" style="fill:rgb(115,243,152)">remote-desktop</text>
-<text transform="translate(986,803)" font-size="16" style="fill:rgb(137,242,182)">data-analysis</text>
-<text transform="translate(222,581) rotate(-90)" font-size="16" style="fill:rgb(122,237,210)">packer</text>
-<text transform="translate(453,1560)" font-size="16" style="fill:rgb(244,129,206)">adversary-simulation</text>
-<text transform="translate(1855,591) rotate(-90)" font-size="16" style="fill:rgb(225,109,237)">mysql</text>
-<text transform="translate(705,889) rotate(-90)" font-size="16" style="fill:rgb(244,134,144)">postgresql</text>
-<text transform="translate(1088,57)" font-size="16" style="fill:rgb(244,150,81)">pe</text>
-<text transform="translate(280,443)" font-size="16" style="fill:rgb(43,241,251)">file-sharing</text>
-<text transform="translate(1295,1122)" font-size="16" style="fill:rgb(241,188,118)">mitm</text>
-<text transform="translate(1172,1042)" font-size="16" style="fill:rgb(154,94,251)">audit</text>
-<text transform="translate(1562,899) rotate(-90)" font-size="16" style="fill:rgb(225,80,238)">data-exfiltration</text>
-<text transform="translate(709,661)" font-size="16" style="fill:rgb(244,85,176)">pcap</text>
-<text transform="translate(1255,770) rotate(-90)" font-size="16" style="fill:rgb(128,91,253)">flask</text>
-<text transform="translate(1419,1685)" font-size="16" style="fill:rgb(234,230,90)">c-sharp</text>
-<text transform="translate(770,407) rotate(-90)" font-size="16" style="fill:rgb(211,58,232)">rat</text>
-<text transform="translate(100,878) rotate(-90)" font-size="15" style="fill:rgb(121,249,35)">purple-team</text>
-<text transform="translate(554,676) rotate(-90)" font-size="15" style="fill:rgb(167,237,86)">threat-detection</text>
-<text transform="translate(830,563) rotate(-90)" font-size="15" style="fill:rgb(121,239,221)">knowledge-base</text>
-<text transform="translate(242,701)" font-size="15" style="fill:rgb(247,135,72)">appsec</text>
-<text transform="translate(966,1213) rotate(-90)" font-size="15" style="fill:rgb(54,191,240)">ldap</text>
-<text transform="translate(957,495) rotate(-90)" font-size="15" style="fill:rgb(175,252,95)">redteam-infrastructure</text>
-<text transform="translate(372,1211)" font-size="15" style="fill:rgb(111,204,238)">artificial-intelligence</text>
-<text transform="translate(1239,769) rotate(-90)" font-size="15" style="fill:rgb(137,214,243)">hack</text>
-<text transform="translate(688,871) rotate(-90)" font-size="15" style="fill:rgb(88,239,220)">hashcat</text>
-<text transform="translate(1118,805)" font-size="15" style="fill:rgb(53,238,222)">docker-compose</text>
-<text transform="translate(852,79)" font-size="15" style="fill:rgb(138,243,175)">debugger</text>
-<text transform="translate(1290,1638) rotate(-90)" font-size="15" style="fill:rgb(208,30,251)">infosectools</text>
-<text transform="translate(649,1722) rotate(-90)" font-size="15" style="fill:rgb(250,122,193)">json</text>
-<text transform="translate(1625,518)" font-size="15" style="fill:rgb(139,249,54)">library</text>
-<text transform="translate(120,1356) rotate(-90)" font-size="15" style="fill:rgb(248,240,95)">sqlite</text>
-<text transform="translate(1766,695)" font-size="15" style="fill:rgb(237,112,187)">pentesting-windows</text>
-<text transform="translate(454,445)" font-size="15" style="fill:rgb(240,163,105)">logging</text>
-<text transform="translate(1637,1295)" font-size="15" style="fill:rgb(83,225,234)">implant</text>
+<text transform="translate(373,1407)" font-size="54" style="fill:rgb(70,251,215)">llm</text>
+<text transform="translate(1214,865)" font-size="54" style="fill:rgb(240,144,140)">open-source</text>
+<text transform="translate(1449,930)" font-size="53" style="fill:rgb(123,238,225)">incident-response</text>
+<text transform="translate(1323,333)" font-size="53" style="fill:rgb(241,216,84)">automation</text>
+<text transform="translate(546,1782) rotate(-90)" font-size="53" style="fill:rgb(185,238,130)">azure</text>
+<text transform="translate(1272,721)" font-size="53" style="fill:rgb(101,187,245)">awesome</text>
+<text transform="translate(348,1663) rotate(-90)" font-size="53" style="fill:rgb(252,137,122)">monitoring</text>
+<text transform="translate(1767,1090)" font-size="52" style="fill:rgb(251,189,77)">macos</text>
+<text transform="translate(1344,1275)" font-size="52" style="fill:rgb(237,43,58)">aws</text>
+<text transform="translate(1339,1340)" font-size="52" style="fill:rgb(101,232,249)">threat-intelligence</text>
+<text transform="translate(1156,427) rotate(-90)" font-size="52" style="fill:rgb(93,159,236)">awesome-list</text>
+<text transform="translate(1226,334) rotate(-90)" font-size="52" style="fill:rgb(240,245,94)">blueteam</text>
+<text transform="translate(409,1112) rotate(-90)" font-size="51" style="fill:rgb(240,45,184)">containers</text>
+<text transform="translate(686,1927) rotate(-90)" font-size="51" style="fill:rgb(138,197,239)">obfuscation</text>
+<text transform="translate(1005,344) rotate(-90)" font-size="50" style="fill:rgb(251,157,36)">network</text>
+<text transform="translate(1527,452)" font-size="50" style="fill:rgb(129,241,212)">cpp</text>
+<text transform="translate(1188,1668)" font-size="50" style="fill:rgb(88,43,245)">post-exploitation</text>
+<text transform="translate(324,1242)" font-size="49" style="fill:rgb(170,134,241)">javascript</text>
+<text transform="translate(983,774) rotate(-90)" font-size="49" style="fill:rgb(233,74,187)">reconnaissance</text>
+<text transform="translate(1643,980)" font-size="48" style="fill:rgb(209,63,248)">command-line</text>
+<text transform="translate(1019,545) rotate(-90)" font-size="48" style="fill:rgb(245,129,97)">cloud</text>
+<text transform="translate(1335,1065) rotate(-90)" font-size="48" style="fill:rgb(235,105,66)">bash</text>
+<text transform="translate(1641,1139)" font-size="46" style="fill:rgb(126,243,176)">cobaltstrike</text>
+<text transform="translate(1356,497)" font-size="45" style="fill:rgb(239,189,96)">edr-evasion</text>
+<text transform="translate(953,1970)" font-size="45" style="fill:rgb(223,102,246)">terraform</text>
+<text transform="translate(843,1740) rotate(-90)" font-size="45" style="fill:rgb(212,127,242)">exploit</text>
+<text transform="translate(1410,244)" font-size="45" style="fill:rgb(235,129,60)">nmap</text>
+<text transform="translate(179,672) rotate(-90)" font-size="45" style="fill:rgb(245,239,55)">ssh</text>
+<text transform="translate(622,414)" font-size="45" style="fill:rgb(152,252,53)">dns</text>
+<text transform="translate(403,300)" font-size="43" style="fill:rgb(238,85,100)">security-audit</text>
+<text transform="translate(1582,1527)" font-size="42" style="fill:rgb(254,39,47)">typescript</text>
+<text transform="translate(715,1232)" font-size="41" style="fill:rgb(242,201,94)">vulnerability</text>
+<text transform="translate(777,627) rotate(-90)" font-size="41" style="fill:rgb(249,127,138)">windows-10</text>
+<text transform="translate(879,1079) rotate(-90)" font-size="41" style="fill:rgb(247,205,118)">recon</text>
+<text transform="translate(1577,798)" font-size="40" style="fill:rgb(237,170,47)">exploitation</text>
+<text transform="translate(1599,880) rotate(-90)" font-size="40" style="fill:rgb(235,82,66)">bof</text>
+<text transform="translate(1082,1855)" font-size="36" style="fill:rgb(252,135,85)">privilege-escalation</text>
+<text transform="translate(879,1751) rotate(-90)" font-size="35" style="fill:rgb(175,132,242)">framework</text>
+<text transform="translate(1222,755)" font-size="35" style="fill:rgb(252,221,110)">pentesting-tools</text>
+<text transform="translate(1038,1535)" font-size="35" style="fill:rgb(251,123,133)">phishing</text>
+<text transform="translate(2000,1111) rotate(-90)" font-size="35" style="fill:rgb(116,251,238)">c</text>
+<text transform="translate(880,940) rotate(-90)" font-size="35" style="fill:rgb(186,242,109)">ansible</text>
+<text transform="translate(640,150)" font-size="35" style="fill:rgb(250,69,52)">static-analysis</text>
+<text transform="translate(872,96)" font-size="34" style="fill:rgb(111,234,252)">privacy</text>
+<text transform="translate(397,1359)" font-size="32" style="fill:rgb(237,202,62)">malware-development</text>
+<text transform="translate(1362,361)" font-size="32" style="fill:rgb(245,144,62)">markdown</text>
+<text transform="translate(1439,277)" font-size="32" style="fill:rgb(123,243,228)">devsecops</text>
+<text transform="translate(1359,433) rotate(-90)" font-size="32" style="fill:rgb(241,137,147)">siem</text>
+<text transform="translate(1637,1387)" font-size="32" style="fill:rgb(186,241,100)">cross-platform</text>
+<text transform="translate(333,656) rotate(-90)" font-size="32" style="fill:rgb(140,240,172)">detection</text>
+<text transform="translate(1363,1883)" font-size="32" style="fill:rgb(95,45,239)">tool</text>
+<text transform="translate(502,1822) rotate(-90)" font-size="32" style="fill:rgb(86,151,248)">networking</text>
+<text transform="translate(564,944)" font-size="31" style="fill:rgb(240,60,170)">forensics</text>
+<text transform="translate(569,917) rotate(-90)" font-size="31" style="fill:rgb(238,96,248)">av-evasion</text>
+<text transform="translate(1632,432)" font-size="31" style="fill:rgb(237,136,73)">backdoor</text>
+<text transform="translate(839,1360)" font-size="30" style="fill:rgb(105,246,216)">vulnerability-scanners</text>
+<text transform="translate(921,1513)" font-size="30" style="fill:rgb(249,237,126)">bypass</text>
+<text transform="translate(1349,284) rotate(-90)" font-size="29" style="fill:rgb(243,189,67)">ai-agents</text>
+<text transform="translate(365,1056) rotate(-90)" font-size="29" style="fill:rgb(249,52,61)">reverse-shell</text>
+<text transform="translate(1680,1360)" font-size="29" style="fill:rgb(143,85,242)">proxy</text>
+<text transform="translate(567,558) rotate(-90)" font-size="28" style="fill:rgb(254,242,107)">bug-bounty</text>
+<text transform="translate(1344,456)" font-size="28" style="fill:rgb(241,47,192)">yara</text>
+<text transform="translate(1479,411)" font-size="28" style="fill:rgb(223,36,253)">beacon</text>
+<text transform="translate(1669,1005)" font-size="28" style="fill:rgb(234,227,69)">security-automation</text>
+<text transform="translate(299,440)" font-size="28" style="fill:rgb(248,132,144)">firewall</text>
+<text transform="translate(1098,1934)" font-size="28" style="fill:rgb(247,163,123)">web</text>
+<text transform="translate(1278,1519)" font-size="28" style="fill:rgb(238,92,182)">rdp</text>
+<text transform="translate(208,1498) rotate(-90)" font-size="28" style="fill:rgb(236,118,252)">security-scanner</text>
+<text transform="translate(676,455)" font-size="28" style="fill:rgb(249,131,52)">edr</text>
+<text transform="translate(1150,626) rotate(-90)" font-size="28" style="fill:rgb(233,51,172)">api</text>
+<text transform="translate(1331,1299)" font-size="28" style="fill:rgb(248,157,113)">attack</text>
+<text transform="translate(1433,1714)" font-size="28" style="fill:rgb(124,185,253)">vulnerabilities</text>
+<text transform="translate(1911,663) rotate(-90)" font-size="27" style="fill:rgb(174,126,245)">mcp</text>
+<text transform="translate(1264,614)" font-size="23" style="fill:rgb(45,151,251)">penetration-testing-tools</text>
+<text transform="translate(397,1260)" font-size="23" style="fill:rgb(59,225,245)">agent</text>
+<text transform="translate(995,1891)" font-size="23" style="fill:rgb(64,153,240)">password</text>
+<text transform="translate(203,1017) rotate(-90)" font-size="23" style="fill:rgb(237,70,190)">cheatsheet</text>
+<text transform="translate(675,667)" font-size="23" style="fill:rgb(57,166,238)">nodejs</text>
+<text transform="translate(992,377)" font-size="23" style="fill:rgb(238,184,48)">microsoft</text>
+<text transform="translate(1381,1425)" font-size="23" style="fill:rgb(36,145,250)">ctf</text>
+<text transform="translate(1403,1142)" font-size="23" style="fill:rgb(91,248,237)">oscp</text>
+<text transform="translate(1437,1745)" font-size="23" style="fill:rgb(103,44,236)">syscalls</text>
+<text transform="translate(1458,1513)" font-size="23" style="fill:rgb(132,245,236)">payload</text>
+<text transform="translate(1181,1925)" font-size="23" style="fill:rgb(253,108,196)">purpleteam</text>
+<text transform="translate(297,459)" font-size="22" style="fill:rgb(92,218,232)">kali-linux</text>
+<text transform="translate(823,311)" font-size="22" style="fill:rgb(112,249,163)">metasploit</text>
+<text transform="translate(1236,684) rotate(-90)" font-size="22" style="fill:rgb(133,216,247)">network-security</text>
+<text transform="translate(1683,1431)" font-size="22" style="fill:rgb(111,236,218)">red-team-tools</text>
+<text transform="translate(584,1257)" font-size="22" style="fill:rgb(94,233,198)">owasp</text>
+<text transform="translate(1560,688)" font-size="22" style="fill:rgb(87,239,208)">malware-detection</text>
+<text transform="translate(1299,1172)" font-size="22" style="fill:rgb(132,245,220)">command-and-control</text>
+<text transform="translate(441,872)" font-size="22" style="fill:rgb(236,158,120)">kvm</text>
+<text transform="translate(414,752) rotate(-90)" font-size="22" style="fill:rgb(33,253,92)">antivirus</text>
+<text transform="translate(1311,519) rotate(-90)" font-size="22" style="fill:rgb(241,142,135)">powershell-module</text>
+<text transform="translate(509,1377)" font-size="22" style="fill:rgb(241,68,63)">git</text>
+<text transform="translate(383,1131)" font-size="22" style="fill:rgb(247,122,55)">information-security</text>
+<text transform="translate(977,819)" font-size="22" style="fill:rgb(92,249,132)">windows-11</text>
+<text transform="translate(1180,376) rotate(-90)" font-size="22" style="fill:rgb(236,130,60)">vulnerability-management</text>
+<text transform="translate(863,1988)" font-size="22" style="fill:rgb(105,65,247)">vulnerability-assessment</text>
+<text transform="translate(271,467) rotate(-90)" font-size="22" style="fill:rgb(116,236,213)">http</text>
+<text transform="translate(1626,888)" font-size="22" style="fill:rgb(247,58,169)">threatintel</text>
+<text transform="translate(323,389)" font-size="21" style="fill:rgb(159,236,105)">developer-tools</text>
+<text transform="translate(798,1703) rotate(-90)" font-size="21" style="fill:rgb(141,74,241)">agents</text>
+<text transform="translate(1788,600)" font-size="21" style="fill:rgb(111,234,140)">android</text>
+<text transform="translate(378,481)" font-size="21" style="fill:rgb(37,253,234)">java</text>
+<text transform="translate(1742,1223)" font-size="21" style="fill:rgb(225,91,235)">edr-bypass</text>
+<text transform="translate(222,1469) rotate(-90)" font-size="21" style="fill:rgb(243,213,135)">cve</text>
+<text transform="translate(1069,1937) rotate(-90)" font-size="21" style="fill:rgb(76,152,251)">cna</text>
+<text transform="translate(1246,444) rotate(-90)" font-size="21" style="fill:rgb(153,115,251)">antivirus-evasion</text>
+<text transform="translate(1306,1359) rotate(-90)" font-size="21" style="fill:rgb(249,125,77)">react</text>
+<text transform="translate(533,1572)" font-size="21" style="fill:rgb(139,87,231)">hacking-tools</text>
+<text transform="translate(1503,382)" font-size="21" style="fill:rgb(52,249,103)">openai</text>
+<text transform="translate(362,319)" font-size="21" style="fill:rgb(88,252,134)">tools</text>
+<text transform="translate(1743,611) rotate(-90)" font-size="21" style="fill:rgb(137,200,239)">dll</text>
+<text transform="translate(356,797)" font-size="21" style="fill:rgb(238,98,195)">reporting</text>
+<text transform="translate(1096,774) rotate(-90)" font-size="21" style="fill:rgb(80,216,250)">tui</text>
+<text transform="translate(721,1039) rotate(-90)" font-size="21" style="fill:rgb(237,127,84)">kernel</text>
+<text transform="translate(1780,892)" font-size="21" style="fill:rgb(220,84,244)">bypass-antivirus</text>
+<text transform="translate(1672,380) rotate(-90)" font-size="21" style="fill:rgb(95,240,234)">gui</text>
+<text transform="translate(781,1866)" font-size="21" style="fill:rgb(73,214,232)">vulnerability-detection</text>
+<text transform="translate(1375,275) rotate(-90)" font-size="21" style="fill:rgb(254,234,102)">encryption</text>
+<text transform="translate(1746,534)" font-size="21" style="fill:rgb(241,60,195)">sysmon</text>
+<text transform="translate(839,898) rotate(-90)" font-size="20" style="fill:rgb(247,110,198)">virtualization</text>
+<text transform="translate(1086,1239)" font-size="20" style="fill:rgb(239,140,71)">productivity</text>
+<text transform="translate(918,1171)" font-size="20" style="fill:rgb(184,239,95)">detection-engineering</text>
+<text transform="translate(204,788) rotate(-90)" font-size="20" style="fill:rgb(237,115,113)">adversary-emulation</text>
+<text transform="translate(366,1690) rotate(-90)" font-size="20" style="fill:rgb(47,221,234)">vulnerability-scanner</text>
+<text transform="translate(1619,1789) rotate(-90)" font-size="20" style="fill:rgb(69,205,230)">php</text>
+<text transform="translate(737,1248)" font-size="20" style="fill:rgb(46,226,240)">shellcode-loader</text>
+<text transform="translate(479,251)" font-size="20" style="fill:rgb(119,54,231)">assembly</text>
+<text transform="translate(582,178)" font-size="20" style="fill:rgb(134,54,234)">loader</text>
+<text transform="translate(842,118)" font-size="20" style="fill:rgb(91,161,250)">obfuscator</text>
+<text transform="translate(962,929) rotate(-90)" font-size="20" style="fill:rgb(252,249,66)">hardening</text>
+<text transform="translate(1134,793) rotate(-90)" font-size="20" style="fill:rgb(181,243,137)">reverse-proxy</text>
+<text transform="translate(388,1527)" font-size="20" style="fill:rgb(161,138,240)">cryptography</text>
+<text transform="translate(898,1667) rotate(-90)" font-size="20" style="fill:rgb(231,223,75)">injection</text>
+<text transform="translate(1778,595) rotate(-90)" font-size="20" style="fill:rgb(227,200,60)">logs</text>
+<text transform="translate(558,1025) rotate(-90)" font-size="20" style="fill:rgb(95,203,233)">desktop</text>
+<text transform="translate(1922,819) rotate(-90)" font-size="20" style="fill:rgb(169,244,107)">c-plus-plus</text>
+<text transform="translate(1534,245) rotate(-90)" font-size="20" style="fill:rgb(205,57,249)">slack</text>
+<text transform="translate(1458,1190)" font-size="20" style="fill:rgb(173,130,245)">scanning</text>
+<text transform="translate(71,1176) rotate(-90)" font-size="20" style="fill:rgb(60,159,235)">machine-learning</text>
+<text transform="translate(222,1016) rotate(-90)" font-size="20" style="fill:rgb(236,159,60)">analysis</text>
+<text transform="translate(1442,947)" font-size="18" style="fill:rgb(245,128,197)">information-gathering</text>
+<text transform="translate(767,123)" font-size="17" style="fill:rgb(98,220,253)">chatgpt</text>
+<text transform="translate(343,996) rotate(-90)" font-size="17" style="fill:rgb(79,160,245)">console</text>
+<text transform="translate(761,1955)" font-size="17" style="fill:rgb(107,234,220)">windows-internals</text>
+<text transform="translate(1315,1122)" font-size="17" style="fill:rgb(243,247,118)">shellcode-injection</text>
+<text transform="translate(1151,806) rotate(-90)" font-size="17" style="fill:rgb(240,124,108)">uac-bypass</text>
+<text transform="translate(553,1760)" font-size="17" style="fill:rgb(242,67,56)">testing</text>
+<text transform="translate(1029,761)" font-size="17" style="fill:rgb(54,193,244)">ruby</text>
+<text transform="translate(759,181)" font-size="17" style="fill:rgb(236,132,246)">bloodhound</text>
+<text transform="translate(1019,788) rotate(-90)" font-size="17" style="fill:rgb(96,252,220)">infrastructure</text>
+<text transform="translate(551,1652)" font-size="17" style="fill:rgb(83,247,134)">payloads</text>
+<text transform="translate(1523,1686)" font-size="17" style="fill:rgb(93,243,229)">aggressor-scripts</text>
+<text transform="translate(735,103)" font-size="17" style="fill:rgb(43,248,99)">research</text>
+<text transform="translate(1317,900)" font-size="17" style="fill:rgb(29,123,251)">dll-injection</text>
+<text transform="translate(1283,685)" font-size="17" style="fill:rgb(61,212,238)">development</text>
+<text transform="translate(1652,1546)" font-size="17" style="fill:rgb(118,215,239)">wsl</text>
+<text transform="translate(1139,1057)" font-size="17" style="fill:rgb(57,172,252)">fuzzing</text>
+<text transform="translate(967,1537)" font-size="17" style="fill:rgb(131,239,248)">cyber</text>
+<text transform="translate(511,1851)" font-size="17" style="fill:rgb(230,225,81)">elasticsearch</text>
+<text transform="translate(963,950)" font-size="17" style="fill:rgb(128,253,220)">blue-team</text>
+<text transform="translate(1681,1021)" font-size="16" style="fill:rgb(108,202,237)">electron</text>
+<text transform="translate(1676,945)" font-size="16" style="fill:rgb(243,108,205)">ethical-hacking</text>
+<text transform="translate(583,262)" font-size="16" style="fill:rgb(61,192,243)">rce</text>
+<text transform="translate(704,1127) rotate(-90)" font-size="16" style="fill:rgb(91,249,211)">amsi</text>
+<text transform="translate(693,606) rotate(-90)" font-size="16" style="fill:rgb(249,202,58)">binary-analysis</text>
+<text transform="translate(221,831) rotate(-90)" font-size="16" style="fill:rgb(119,241,216)">orchestration</text>
+<text transform="translate(1274,1542)" font-size="16" style="fill:rgb(244,66,75)">collaboration</text>
+<text transform="translate(1124,893)" font-size="16" style="fill:rgb(210,53,242)">redirector</text>
+<text transform="translate(202,1226) rotate(-90)" font-size="16" style="fill:rgb(115,243,152)">remote-desktop</text>
+<text transform="translate(923,1187)" font-size="16" style="fill:rgb(137,242,182)">data-analysis</text>
+<text transform="translate(1209,857) rotate(-90)" font-size="16" style="fill:rgb(122,237,210)">packer</text>
+<text transform="translate(705,881) rotate(-90)" font-size="16" style="fill:rgb(244,129,206)">adversary-simulation</text>
+<text transform="translate(940,1019) rotate(-90)" font-size="16" style="fill:rgb(225,109,237)">mysql</text>
+<text transform="translate(988,55)" font-size="16" style="fill:rgb(244,134,144)">postgresql</text>
+<text transform="translate(97,848)" font-size="16" style="fill:rgb(244,150,81)">pe</text>
+<text transform="translate(1218,1259)" font-size="16" style="fill:rgb(43,241,251)">file-sharing</text>
+<text transform="translate(275,1597)" font-size="16" style="fill:rgb(241,188,118)">mitm</text>
+<text transform="translate(119,1327) rotate(-90)" font-size="16" style="fill:rgb(154,94,251)">audit</text>
+<text transform="translate(928,1770)" font-size="16" style="fill:rgb(225,80,238)">data-exfiltration</text>
+<text transform="translate(1935,717) rotate(-90)" font-size="16" style="fill:rgb(244,85,176)">pcap</text>
+<text transform="translate(103,806) rotate(-90)" font-size="16" style="fill:rgb(128,91,253)">flask</text>
+<text transform="translate(1120,1637)" font-size="16" style="fill:rgb(234,230,90)">c-sharp</text>
+<text transform="translate(1447,439) rotate(-90)" font-size="16" style="fill:rgb(211,58,232)">rat</text>
+<text transform="translate(2000,1054) rotate(-90)" font-size="15" style="fill:rgb(121,249,35)">purple-team</text>
+<text transform="translate(428,630) rotate(-90)" font-size="15" style="fill:rgb(167,237,86)">threat-detection</text>
+<text transform="translate(1123,557) rotate(-90)" font-size="15" style="fill:rgb(121,239,221)">knowledge-base</text>
+<text transform="translate(1312,775)" font-size="15" style="fill:rgb(247,135,72)">appsec</text>
+<text transform="translate(870,1325) rotate(-90)" font-size="15" style="fill:rgb(54,191,240)">ldap</text>
+<text transform="translate(137,1124) rotate(-90)" font-size="15" style="fill:rgb(175,252,95)">redteam-infrastructure</text>
+<text transform="translate(1685,1407)" font-size="15" style="fill:rgb(111,204,238)">artificial-intelligence</text>
+<text transform="translate(1220,1402) rotate(-90)" font-size="15" style="fill:rgb(137,214,243)">hack</text>
+<text transform="translate(1419,1039)" font-size="15" style="fill:rgb(88,239,220)">hashcat</text>
+<text transform="translate(1225,1942)" font-size="15" style="fill:rgb(53,238,222)">docker-compose</text>
+<text transform="translate(1385,405)" font-size="15" style="fill:rgb(138,243,175)">debugger</text>
+<text transform="translate(741,593) rotate(-90)" font-size="15" style="fill:rgb(208,30,251)">infosectools</text>
+<text transform="translate(564,1610)" font-size="15" style="fill:rgb(250,122,193)">json</text>
+<text transform="translate(1394,209)" font-size="15" style="fill:rgb(139,249,54)">library</text>
+<text transform="translate(558,1878)" font-size="15" style="fill:rgb(248,240,95)">sqlite</text>
+<text transform="translate(281,410)" font-size="15" style="fill:rgb(237,112,187)">pentesting-windows</text>
+<text transform="translate(446,1684) rotate(-90)" font-size="15" style="fill:rgb(240,163,105)">logging</text>
+<text transform="translate(1126,1097) rotate(-90)" font-size="15" style="fill:rgb(83,225,234)">implant</text>
 </svg>
